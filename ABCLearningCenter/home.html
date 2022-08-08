@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-ABCLearningCenter</title>
+    <link rel="stylesheet" href="a1.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+</head>
+<body>
+
+    <header>
+        <div class="logohead">
+            <img class="logoabc" src="Pictures1/Logo-ABC.png" alt="Home-ABCLearningCenter">
+        </div>
+        <div>
+            <nav class="example-one">
+                <ul class="ulmenu">
+                    <li><a href="home.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="course.html">Course</a>
+                        <div class="dropdown-text">
+                            <span><a href="CourseWebDev.html">Web Development</a></span>
+                            <br>
+                            <span><a href="CourseBusinessTrain.html">Business Training</a></span>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="schedule.html">Schedule</a>
+                        <div class="dropdown-text">
+                            <span><a href="schedulewd.html">Web Development</a></span>
+                            <br>
+                            <span><a href="schedulebt.html">Business Training</a></span>
+                        </div>
+                    </li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+                <div id="register">
+                    <a href="registration.html">Register Now!</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+        <br>
+
+    <main>
+        <div class="mainhome">
+            <div class="banner" id="headlogo">
+                <img src="Pictures1/IT-min.jpg" alt="IT">
+            </div>
+            <div class="pict1">
+                <img src="Pictures1/itperson-min.jpg" alt="ITPerson">
+            </div>
+            <div class="maincontent">
+                <div class="tabs">
+                    <ul class="menu">
+                        <li><a href="#introduce">Welcome</a></li>
+                        <li><a href="#whyus">Why Us?</a></li>
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#testimoni">Testimoni</a></li>
+                    </ul>
+                    
+                    <div class="opening" id="introduce">
+                        <h1>Welcome to ABC Learning Center!!!</h1>
+                            <p class="parahome">
+                                Are you intersent with programming languanges?
+                                <br>
+                                Do you want to learn programming languanges?
+                                <br>
+                                But you don't have any programming backround?
+                            </p>
+                            <p class="parahome">
+                                Don't worry! ABC Learning Center is here. We will help you to learn many programming languanges from zero to master
+                            </p>    
+                            <p class="parahome">
+                                Career opportunities in the future that rely on technology make programmer much needed
+                            </p>
+                    </div>
+                    <div class="opening" id="whyus">
+                        <h1>Why Us?</h1>
+                            <p class="parahome">
+                                The reason you should join us are 
+                                <ul>
+                                    <li>Experienced mentor more than 2 years</li>
+                                    <li>24/7 access to our e-learning</li>
+                                    <li>Some of our graduates are working in big company</li>
+                                    <li>Get Trusted Certificate</li>
+                                    <li>Affordable price </li>
+                                </ul>
+                            </p>
+                    </div>
+                    <div class="opening" id="aboutus">
+                        <h1>About Us?</h1>
+                        <p class="paboutus">
+                            ABC Learning Center is a place to learn programming languanges.<br>Founded by Mr. Jackie Smith since 2012, some of our graduates have been worked on several big company and some of them have been made their own company.
+                        </p>
+                        <p class="paboutus">
+                            ABC Learning Center also won some national and international championship.<br>With the certificate of the chamionship, you can add that to your resume 
+                        </p>
+                        <p class="paboutus">
+                            Our office are in several places in this country
+                        </p>
+                        <br>
+                    </div>
+                    <div class="testi" id="testimoni">
+                        <div class="testimoni">
+                            <img class=testipict id=testipict1 src="Pictures1/TestiA.jpg" alt="PersonA">
+                            <img class=testipict id=testipict2 src="Pictures1/TestiB.jpg" alt="PersonB">
+                        </div>
+                        <div class="testitext">
+                            <p id="testitext1">
+                                I don't have any backround programming languanges and decide to take course at here, as time goes by, I can master several programming languange. Now I become a full-stack development at Shippoo 
+                                <br><i>-Harry-</i>
+                            </p>
+                            <p id="testitext2">
+                                My father has a business and I will take over the leadership of the business. I join this course to make the business bigger and bigger. And guess what? I made it. Now, this business become a startup 
+                                <br><i>-Rachel-</i>
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </main>
+    <br>
+
+    <footer>
+        <div class="logofoot">
+        <img class="logoabc" src="Pictures1/Logo-ABC.png" alt="Home-ABCLearningCenter">
+            <br>
+            <p>
+                &copy;copyright ABC--Learning-Center
+        </p>
+        </div>
+        <div class="bothref">
+            <ul>
+                <li><a href="sitemap.html">Site Map</a></li>
+                <li><a href="privacypolicy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script src="a1.js"></script>
+    <script>
+        $(function () {
+            $('#scheduledrop').click(function(){
+                $('.headdrop').toggle();
+            });  
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,528 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0F044C;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+/*header*/
+
+header {
+    background-color: #EEEEEE;
+    margin: -10px 0 0 -10px;
+    padding: 0 0 0 10px;
+    width: 100%;
+    height: 70px;
+    position:fixed;
+    transition: 0.2s;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.logohead img {
+    float: left;
+} 
+
+    /*logo ABC Learning Center*/
+.logoabc {
+    height: 62px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    padding: 0 16px;
+}
+
+ul li a {
+    color: black;
+}
+
+#register {
+    padding: 5px 10px;
+    background-color: gold;
+    border: solid black;
+    border-radius: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    position: absolute;
+    top: 15%;
+    right: 3%;
+}
+
+/* header nav dropdown  */
+
+.ulmenu .dropdown .dropdown-text {
+    display: none;
+    position: absolute;
+    background-color: #E3EEEE;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 12px;
+    text-align: left;
+    border: solid rgb(102, 100, 100);
+    border-radius: 0 20px 20px 0;
+}
+
+.ulmenu .dropdown:hover .dropdown-text {
+    display: block;
+}
+
+/*home main and content*/
+
+main  {
+    margin: 40px 0 0 0;
+}
+
+.banner img {
+    width: 100%;
+    height: 600px;
+}
+
+.pict1 img {
+    max-width: 45vw;
+    height: 700px;
+    float: right;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.maincontent {
+    margin: 20px 20px;
+    font-size: xx-large;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 5px;
+    border: 5px solid black;
+    background-color: rgb(221, 213, 213);
+    border-radius: 10px;
+    box-shadow: -3px 3px rgb(255, 255, 255);
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.opening {
+    background-color: darkkhaki;
+    width: 51vw;
+    border-radius: 10px;
+}
+
+/* testi */
+
+.testimoni {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimoni img.testipict {
+    justify-content:space-around;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 20px;
+    margin: 20px 0 0 0;
+}
+
+.testitext {
+    display:flex;
+    justify-content: space-around;
+    background-color: darkcyan;
+    border-radius: 10px;
+    width: 47vw;
+    margin: 0 0 0 2vw;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#testitext1, #testitext2 {
+    width: 20vw;
+    background-color: #DADDFC;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+/*main course*/
+
+.courpict img {
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin: 18px 50px;
+    border-radius: 10px;
+    box-shadow: whitesmoke 5px 5px;
+}
+
+.paracourse p {
+    width: 800px;
+    height: 220px;
+    background-color: wheat;
+    border-radius: 20px;
+    margin: 0 600px;
+    font-size: 40px;
+    text-align: center;
+    padding: 90px 0;
+}
+
+.paracourse .pcourse button {
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: gold;
+    box-shadow: darkblue 5px 5px;
+    font-size: 20px;
+}
+
+/*Main Schedule*/
+
+.mainschedule h1 {
+    color: floralwhite;
+    background-color:dimgrey;
+    width: 125px;
+    margin: 20px 0 0 50px;
+    padding: 10px;
+}
+
+.mainschedule ol  {
+    /* background-color: ghostwhite; */
+    padding: 10px;
+}
+
+.mainschedule ol ul, .mainschedule ol ul li  {
+    margin: 20px 80px;
+    padding: 10px;
+    background-color: darkkhaki;
+    border-radius: 20px;
+    font-size: 35px;
+}
+
+.mainschedule ol ul li {
+    background-color: floralwhite;
+    width: 500px;
+    border-radius: 40px;
+}
+
+.mainschedule ol button {
+    width: 290px;
+    height: 40px;
+    border-radius: 20px;
+    float: right;
+    margin: 140px;
+    font-size: 30px;
+    background-color: gold;
+    box-shadow: slategray 5px 5px;
+}
+
+/*Schedule Web Development and Business Training*/
+
+.scheduleweb img {
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin: 50px 50px 0 0; 
+}
+
+.scheduleweb {
+    background-color: #DADDFC;
+    margin: 100px 0 0 50px;
+    padding: 0 0 20px  20px;
+    width: 1400px;
+}
+
+.scheduleweb h1 {
+    width: 25vw;
+}
+
+.scheduleweb h1, .scheduleweb p, .scheduleweb ol  {
+    background-color:yellow;
+}
+
+.scheduleweb p, .scheduleweb ol {
+    font-size: 25px;
+    width: 35vw;
+    line-height: 50px;
+}
+
+.scheduleweb p {
+    margin: 0 100px;
+    padding: 0 50px;
+}
+
+.scheduleweb a button {
+    width: 200px;
+    height: 30px;
+    margin-left: 100px;
+    border-radius: 20px;
+    box-shadow: black 5px 5px;
+}
+
+/*Thank You*/
+
+.mainthankyou {
+    text-align: center;
+    background-color:darkkhaki;
+    border-radius: 20px;
+    width: 1000px;
+    height: 300px;
+    margin: 10% 17%;
+    padding: 8% 0;
+    font-size: xx-large;
+}
+
+.mainthankyou h1 {
+    text-align: center;
+    width: 1000px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mainthankyou p {
+    background-color: #DADDFC;
+    width: 1000px;
+}
+
+/*Main Privacy Policy*/
+
+.mainprivacypolicy {
+    background-color: darkkhaki;
+    margin: 30px;  
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.mainprivacypolicy h1, .mainprivacypolicy h2 {
+    text-decoration: black underline;
+    background-color: #DADDFC;
+    width: fit-content;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.mainprivacypolicy p, .mainprivacypolicy ul li {
+    font-size: 25px;
+    text-align: justify;
+    background-color: #F3F1F5;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/*Main Contact Us*/
+
+.covercus img {
+    width: 100%;
+    height: 500px;
+}
+
+
+.custext {
+    background-color: yellow;
+    width: 99%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.logoinfocus {
+    display: flex;
+    justify-content:space-around;
+}
+
+.maincontactus .infocus {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    font-size: 40px;
+    width: 70vw;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Page course details Web Dev & Business Course*/
+
+.webdev {
+    background-color: darkkhaki;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 50px 20px 0 20px;
+}
+
+.webdev h1 {
+    font-size: 35px;
+    text-align: center;
+    background-color:ghostwhite;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.webdev h2 {
+    font-size: 32px;
+}
+
+.webdev h2, .webdev p, .webdev ul li {
+    background-color:ghostwhite;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.webdev p, .webdev ul li {
+    font-size: 27px;
+}
+
+/* Registration */
+
+.formco {
+    background-color: gold;
+    box-shadow: floralwhite 5px 5px;
+    max-width: 520px;
+    margin: 90px auto ;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.formco input {
+    width: 400px;
+    height: 30px;
+}
+
+.formco #webd1, .formco #webd2 {
+    width: 100px;
+}
+
+.formco .suborest {
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    box-shadow: darkslategray 5px 5px;
+}
+
+.formco .course-class {
+    width: 79%;
+    float: right;
+}
+
+.formco label {
+    width: 20%;
+}
+
+.formco select#course option {
+    width: 30%;
+    height: 20px;
+}
+
+.formco input.gender{
+    width: 8%;
+    height: 20px;
+}
+
+.formco span {
+    font-size: 20px;
+}
+
+.formco h2 {
+    font-weight: bold;
+    background-color:deepskyblue;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.formco label {
+    text-align: right;
+    float: left;
+    width: 20%;
+    margin: 0 5px 0 0;
+}
+
+/* registrant admin */
+
+.admin_registrant {
+    background-color: gold;
+}
+
+.admin_registrant .container {
+    margin: 0 auto;
+    width: fit-content;
+}    
+
+.admin_registrant h1 {
+    text-align: center;
+    }
+    
+.admin_registrant  th, tr,    td {
+        border: 2px solid rgb(49, 49, 49);
+        padding: 5px 10px;
+    }
+
+
+/*Site Map*/
+
+.sitemap {
+    background-color: darkkhaki;
+    width: 89vw;
+    margin: 50px 50px 0 50px;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.sitemap .detailmap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sitemap .detailmap ul li {
+    line-height: 50px;
+}
+
+.sitemap .detailmap a {
+    color:rgb(25, 50, 190);
+    font-size: 20px;
+}
+
+/*footer*/
+
+footer {
+    position: relative;
+    bottom: 0%;
+    background-color: #EEEEEE;
+    height: 115px;
+    width: 100%;
+    margin: 0 0 -4px -4px;
+    padding: 6px;
+    clear: both;
+}
+
+.logofoot {
+    float: right;
+}
+
+.bothref {
+    line-height: 40px;
+}
